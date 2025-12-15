@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Personal Profile</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            max-width: 500px;
+        }
+
+        img {
+            width: 150px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+
+        form {
+            background-color: white;
+            padding: 15px;
+            width: 300px;
+        }
+
+        input, textarea {
+            width: 100%;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Abdurahman Siraj</h1>
+
+    <p>
+        I am a first-year university.
+        I am interested in programming and web development.
+    </p>
+    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=300" alt="Profile Picture">
+
+    <form>
+        <p>
+            Name:<br>
+            <input type="text">
+        </p>
+
+        <p>
+            Email:<br>
+            <input type="email">
+        </p>
+
+        <p>
+            Message:<br>
+            <textarea rows="4"></textarea>
+        </p>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
