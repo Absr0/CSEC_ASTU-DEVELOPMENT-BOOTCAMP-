@@ -1,0 +1,91 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #f2f4f8;
+}
+
+
+.container {
+background: #fff;
+padding: 30px;
+width: 100%;
+max-width: 400px;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+}
+
+
+h1 {
+text-align: center;
+}
+
+
+.input-section {
+display: flex;
+gap: 10px;
+}
+
+
+input {
+flex: 1;
+padding: 10px;
+font-size: 16px;
+}
+
+
+button {
+padding: 10px 15px;
+border: none;
+background-color: #4a6cff;
+color: #fff;
+cursor: pointer;
+border-radius: 5px;
+}
+
+
+ul {
+list-style: none;
+}
+
+
+li {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 8px 0;
+}
+
+
+.completed {
+text-decoration: line-through;
+color: gray;
+}
+
+
+.stats {
+display: flex;
+justify-content: space-between;
+}
+
+
+.clear {
+background-color: #e74c3c;
+}
+
+
+#emptyMsg {
+text-align: center;
+color: #888;
+}
